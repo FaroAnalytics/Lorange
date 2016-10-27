@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- grey standard
+    <color name="bottomBackgroundColor">#eaebed</color>
+    <color name="layoutBackgroundColor">#ffffff</color>
+    <color name="buttonBackgroundColor">#6c7583</color>
+    <color name="standardFontColor">#2e3a4f</color>
+    <color name="buttonFontColor">#ffffff</color>
+    <color name="linkFontColor">#576172</color>
+    -->
+
+    <!-- red
+    <color name="bottomBackgroundColor">#f5e6e6</color>
+    <color name="layoutBackgroundColor">#ffffff</color>
+    <color name="buttonBackgroundColor">#a20606</color>
+    <color name="standardFontColor">#510303</color>
+    <color name="buttonFontColor">#ffffff</color>
+    <color name="linkFontColor">#810404</color>
+    -->
+
+    <!-- faro analytics theme -->
+    <color name="bottomBackgroundColor">#eaebed</color>
+    <color name="layoutBackgroundColor">#ffffff</color>
+    <color name="buttonBackgroundColor">#6c7583</color>
+    <color name="standardFontColor">#2e3a4f</color>
+    <color name="buttonFontColor">#ffffff</color>
+    <color name="linkFontColor">#576172</color>
+
+
+    <!--
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    -->
+</resources>

@@ -1,0 +1,107 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="fill_parent"
+android:weightSum="1">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <fragment
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:tag="@string/title_activity_maps"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="com.faroanalytics.lorange.MapsActivity" />
+
+        <LinearLayout
+            android:id="@+id/completeMarker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingBottom="39dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <ImageButton
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:src="@drawable/thumb_up"
+                android:background="@drawable/mini_button"
+                android:id="@+id/bIAmHere" />
+
+            <ImageView
+                android:id="@+id/pin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/aim" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="240dip"
+            android:layout_height="40dp"
+            android:background="@drawable/search_field"
+            android:gravity="center"
+            android:layout_marginTop="10dip"
+            android:weightSum="1"
+            android:layout_gravity="center_horizontal|top">
+
+            <EditText
+                android:layout_width="220dp"
+                android:layout_height="wrap_content"
+                android:maxLines="1"
+                android:inputType="text"
+                android:textSize="16sp"
+                android:layout_marginLeft="15dp"
+                android:textColor="@color/standardFontColor"
+                android:fontFamily="sans-serif-thin"
+                android:id="@+id/tfAddress"
+                android:layout_weight="0.98" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:src="@drawable/go"
+                android:scaleType="fitCenter"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@null"
+                android:id="@+id/bSearch" />
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginBottom="0dp"
+            android:layout_gravity="center_horizontal|bottom">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:textAllCaps="true"
+                android:textSize="14sp"
+                android:background="@color/buttonBackgroundColor"
+                android:textColor="@color/buttonFontColor"
+                android:fontFamily="sans-serif-thin"
+                android:text="@string/my_map_logout"
+                android:id="@+id/bLogout" />
+
+
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

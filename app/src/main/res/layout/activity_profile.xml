@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/bottomBackgroundColor"
+    tools:context="com.faroanalytics.lorange.ProfileActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        android:textAllCaps="true"
+        android:textSize="14sp"
+        android:background="@color/buttonBackgroundColor"
+        android:textColor="@color/buttonFontColor"
+        android:fontFamily="sans-serif-thin"
+        android:text="@string/profile_map"
+        android:id="@+id/bGoMap" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="20dp"
+                android:id="@+id/ivProfilePicture"
+                android:src="@drawable/profile_pic"
+                android:scaleType="fitCenter"
+                app:riv_corner_radius="30dip"
+                app:riv_border_width="0dip"
+                app:riv_border_color="@color/buttonBackgroundColor"
+                app:riv_mutate_background="true"
+                app:riv_tile_mode="clamp"
+                app:riv_oval="true" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/layoutBackgroundColor"
+                android:layout_margin="1dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/birthday" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textSize="17sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@color/standardFontColor"
+                    android:id="@+id/tvBirthday"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/layoutBackgroundColor"
+                android:layout_margin="1dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/email" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textSize="17sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@color/standardFontColor"
+                    android:id="@+id/tvEmail"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/layoutBackgroundColor"
+                android:layout_margin="1dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/phone" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textSize="17sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@color/standardFontColor"
+                    android:id="@+id/tvPhone"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical|right">
+
+                    <ImageButton
+                        android:layout_width="40dip"
+                        android:layout_height="40dip"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/mini_button"
+                        android:src="@drawable/whatsapp_25"
+                        android:id="@+id/bWhatsapp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/layoutBackgroundColor"
+                android:layout_margin="1dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/home" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textSize="17sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@color/standardFontColor"
+                    android:id="@+id/tvHome"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:background="@color/layoutBackgroundColor"
+                android:layout_margin="1dp">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginLeft="30dp"
+                    android:src="@drawable/work" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp"
+                    android:textSize="17sp"
+                    android:fontFamily="sans-serif-thin"
+                    android:textColor="@color/standardFontColor"
+                    android:id="@+id/tvWork"/>
+
+            </LinearLayout>
+
+            <ImageButton
+                android:layout_width="80dip"
+                android:layout_height="40dip"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/mini_button"
+                android:src="@drawable/rsz_edit"
+                android:id="@+id/bEdit"/>
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+</LinearLayout>
+
+

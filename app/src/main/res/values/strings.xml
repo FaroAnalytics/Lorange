@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Lorange</string>
+    <string name="profile_logout">Logout</string>
+    <string name="login_title">IMD MBA 2015</string>
+    <string name="login_slogan">90 fucking expensive friends</string>
+    <string name="login_email">Email</string>
+    <string name="login_password">Password</string>
+    <string name="login_login">Login</string>
+
+    <string name="edit_position">Click here to update your position</string>
+    <string name="edit_picture">Looking good? show us!</string>
+    <string name="edit_linkedin">Synchronize your profile with Linkedin and forget it!</string>
+    <string name="edit_instruction">Old school, no worries. Modify the fields below and hit edit</string>
+    <string name="edit_notifications">Receive notifications for birthdays?</string>
+    <string name="edit_firstname">First name</string>
+    <string name="edit_lastname">Last name</string>
+    <string name="edit_email">Email</string>
+    <string name="edit_residence">City of residence</string>
+    <string name="edit_birthdate">Birth date</string>
+    <string name="edit_profile">Back to profile</string>
+    <string name="edit_job">Job</string>
+    <string name="edit_password">Password</string>
+    <string name="edit_phone">Phone</string>
+    <string name="edit_edit">Save</string>
+
+
+    <string name="birthday_whatsapp">Send me your wishes with Whatsapp:</string>
+    <string name="birthday_thankyou">Thank you!</string>
+
+    <string name="title_activity_maps">Lorange</string>
+    <string name="title_activity_class_map">Lorange</string>
+
+    <string name="my_map_logout">Logout</string>
+    <string name="go_list">See class in a list</string>
+    <string name="go_map">See class on a map</string>
+    <string name="profile_map">Back to map</string>
+
+</resources>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.faroanalytics.lorange.BirthdayActivity">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_gravity="center"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="50dp"
+        android:id="@+id/ivProfilePicture"
+        android:src="@drawable/profile_pic"
+        android:scaleType="fitCenter"
+        app:riv_corner_radius="30dip"
+        app:riv_border_width="0dip"
+        app:riv_border_color="@color/buttonBackgroundColor"
+        app:riv_mutate_background="true"
+        app:riv_tile_mode="clamp"
+        app:riv_oval="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center_vertical"
+        android:background="@color/layoutBackgroundColor">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="30dp"
+            android:src="@drawable/birthday" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:textSize="17sp"
+            android:fontFamily="sans-serif-thin"
+            android:textColor="@color/standardFontColor"
+            android:id="@+id/tvBirthdayToday"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="@string/birthday_whatsapp"/>
+
+    <ImageButton
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:background="@drawable/mini_button"
+        android:src="@drawable/whatsapp_25"
+        android:id="@+id/bSendWhatsapp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="17sp"
+        android:text="@string/birthday_thankyou"/>
+
+</LinearLayout>
