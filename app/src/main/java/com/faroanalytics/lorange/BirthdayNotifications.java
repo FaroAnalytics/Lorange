@@ -85,6 +85,9 @@ public class BirthdayNotifications extends AsyncTask<Void, Alumni, Void> {
         Calendar calendar = Calendar.getInstance();
         calendar.set(Calendar.MONTH, Integer.parseInt(alumni.getBirthDate().substring(5, 7)) - 1);
         calendar.set(Calendar.DAY_OF_MONTH, Integer.parseInt(alumni.getBirthDate().substring(8)));
+        calendar.set(Calendar.HOUR, 0);
+        calendar.set(Calendar.MINUTE, 0);
+        calendar.set(Calendar.SECOND, 1);
 
         while (Calendar.getInstance().getTimeInMillis() > calendar.getTimeInMillis()) {
             calendar.set(Calendar.YEAR, calendar.get(Calendar.YEAR) + 1);

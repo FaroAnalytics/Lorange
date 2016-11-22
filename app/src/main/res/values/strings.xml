@@ -8,9 +8,9 @@
     <string name="login_login">Login</string>
 
     <string name="edit_position">Click here to update your position</string>
-    <string name="edit_picture">Looking good? show us!</string>
+    <string name="edit_picture">Looking good? show us a picture of you!</string>
     <string name="edit_linkedin">Synchronize your profile with Linkedin and forget it!</string>
-    <string name="edit_instruction">Old school, no worries. Modify the fields below and hit edit</string>
+    <string name="edit_instruction">Update your information. Modify the fields below and hit edit</string>
     <string name="edit_notifications">Receive notifications for birthdays?</string>
     <string name="edit_firstname">First name</string>
     <string name="edit_lastname">Last name</string>

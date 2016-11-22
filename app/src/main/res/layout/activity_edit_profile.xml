@@ -22,7 +22,7 @@
         android:text="@string/edit_profile"
         android:id="@+id/bGoProfile" />
 
-    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_weight="1">
@@ -99,29 +99,6 @@
                         android:layout_marginBottom="10dp"
                         android:src="@drawable/camera"
                         android:id="@+id/bCamera" />
-
-                    <TextView
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:textColor="@color/standardFontColor"
-                        android:fontFamily="sans-serif-thin"
-                        android:layout_marginLeft="6dp"
-                        android:layout_marginRight="6dp"
-                        android:layout_marginTop="10dp"
-                        android:layout_marginBottom="1dp"
-                        android:paddingTop="10dp"
-                        android:paddingBottom="10dp"
-                        android:paddingLeft="5dp"
-                        android:paddingRight="5dp"
-                        android:textSize="16sp"
-                        android:gravity="left"
-                        android:text="@string/edit_linkedin"
-                        android:id="@+id/tvLinkedinComment" />
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:text="Synchronize your profile with Linkedin"/>
 
                     <TextView
                         android:layout_width="match_parent"
@@ -281,9 +258,11 @@
                     <Switch
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_margin="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="30dp"
                         android:textOn="On"
                         android:textOff="Off"
+                        android:shadowColor="@color/bottomBackgroundColor"
                         android:id="@+id/sNotification"/>
 
                 </LinearLayout>

@@ -142,7 +142,7 @@ public class ClassMapActivity extends FragmentActivity implements OnMapReadyCall
                     mMap.addMarker(new MarkerOptions()
                     .position(values[0].getPosition())
                     .title(values[0].getName() + " >>")
-                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.marker))),
+                    .icon(BitmapDescriptorFactory.fromResource(R.drawable.marker_border_light))),
                     values[0]);
         }
 

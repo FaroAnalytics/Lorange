@@ -47,9 +47,6 @@ public class EditDB extends AsyncTask<String, String, Void> {
     protected void onProgressUpdate(String... values) {
         if (values[0].equals("yes")) {
             Toast.makeText(activity, "Profile successfully edited", Toast.LENGTH_SHORT).show();
-            Intent intent = new Intent(activity, ProfileActivity.class);
-            intent.putExtra("userID", userID);
-            activity.startActivity(intent);
         } else if(values[0].equals("no")) {
             AlertDialog.Builder builder = new AlertDialog.Builder(activity);
             builder.setMessage("Edit failed").setNegativeButton("Retry", null).create().show();

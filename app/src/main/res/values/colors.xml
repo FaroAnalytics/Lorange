@@ -21,8 +21,8 @@
     <!-- faro analytics theme -->
     <color name="bottomBackgroundColor">#eaebed</color>
     <color name="layoutBackgroundColor">#ffffff</color>
-    <color name="buttonBackgroundColor">#6c7583</color>
-    <color name="standardFontColor">#2e3a4f</color>
+    <color name="buttonBackgroundColor">#e62f3f</color>
+    <color name="standardFontColor">#5e5e5e</color>
     <color name="buttonFontColor">#ffffff</color>
     <color name="linkFontColor">#576172</color>
 

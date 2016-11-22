@@ -50,6 +50,7 @@ tools:context="com.faroanalytics.lorange.LoginActivity">
         android:paddingRight="5dp"
         android:textSize="16sp"
         android:inputType="textEmailAddress"
+        android:gravity="center"
         android:id="@+id/etEmail"
         android:hint="@string/login_email" />
 
@@ -70,6 +71,7 @@ tools:context="com.faroanalytics.lorange.LoginActivity">
         android:textSize="16sp"
         android:id="@+id/etPassword"
         android:inputType="textPassword"
+        android:gravity="center"
         android:hint="@string/login_password" />
 
     <Button

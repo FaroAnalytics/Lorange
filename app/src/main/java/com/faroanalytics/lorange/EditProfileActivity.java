@@ -3,6 +3,7 @@ package com.faroanalytics.lorange;
 import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.AlertDialog;
+import android.app.NotificationManager;
 import android.app.PendingIntent;
 import android.content.ActivityNotFoundException;
 import android.content.Context;
@@ -146,6 +147,9 @@ public class EditProfileActivity extends AppCompatActivity {
                     Toast.makeText(EditProfileActivity.this,
                             "you will now be notified about birthdays", Toast.LENGTH_SHORT).show();
                 } else {
+
+                    NotificationManager notificationManager = (NotificationManager) getSystemService(Context.NOTIFICATION_SERVICE);
+                    notificationManager.cancelAll();
 
                     editor.putBoolean("notifications", false);
                     editor.apply();
