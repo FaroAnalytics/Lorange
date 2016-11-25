@@ -8,7 +8,7 @@ import java.util.Map;
 
 public class FillProfileRequest extends StringRequest {
 
-    private static final String LOGIN_REQUEST_URL = "http://faroanalytics.com/profiles.php";
+    private static final String LOGIN_REQUEST_URL = "http://strwberry.io/db_files/profile.php";
     private Map<String, String> params;
 
     public FillProfileRequest(int userID, Response.Listener<String> listener) {

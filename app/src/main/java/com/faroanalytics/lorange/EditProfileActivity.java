@@ -269,7 +269,7 @@ public class EditProfileActivity extends AppCompatActivity {
 
         private void makeRequest() {
             RequestQueue requestQueue = Volley.newRequestQueue(EditProfileActivity.this);
-            StringRequest request = new StringRequest(Request.Method.POST, "http://faroanalytics.com/uploadImage.php",
+            StringRequest request = new StringRequest(Request.Method.POST, "http://strwberry.io/db_files/picture.php",
                     new Response.Listener<String>() {
                         @Override
                         public void onResponse(String response) {}

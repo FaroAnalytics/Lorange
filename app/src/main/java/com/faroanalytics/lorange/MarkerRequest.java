@@ -9,7 +9,7 @@ import java.util.Map;
 
 public class MarkerRequest extends StringRequest {
 
-    private static final String LOGIN_REQUEST_URL = "http://faroanalytics.com/markers.php";
+    private static final String LOGIN_REQUEST_URL = "http://strwberry.io/db_files/marker.php";
     private Map<String, String> params;
 
     public MarkerRequest(int userID, int positionLat, int positionLng, Response.Listener<String> listener) {

@@ -7,7 +7,7 @@ import java.util.Map;
 
 public class EditRequest extends StringRequest {
 
-    private static final String REGISTER_REQUEST_URL = "http://faroanalytics.com/edit.php";
+    private static final String REGISTER_REQUEST_URL = "http://strwberry.io/db_files/edit.php";
     private Map<String, String> params;
 
     public EditRequest(String userID, String email, String phone, String job, String residence, String password, Response.Listener<String> listener) {
